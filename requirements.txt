@@ -1,6 +1,8 @@
 cachetools==5.5.2
 certifi==2025.7.14
+cffi==1.17.1
 charset-normalizer==3.4.2
+cryptography==45.0.5
 google-api-core==2.25.1
 google-api-python-client==2.176.0
 google-auth==2.40.3
@@ -10,11 +12,16 @@ googleapis-common-protos==1.70.0
 httplib2==0.22.0
 idna==3.10
 oauthlib==3.3.1
+pdfminer.six==20250506
+pdfplumber==0.11.7
+pillow==11.3.0
 proto-plus==1.26.1
 protobuf==6.31.1
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
+pycparser==2.22
 pyparsing==3.2.3
+pypdfium2==4.30.0
 requests==2.32.4
 requests-oauthlib==2.0.0
 rsa==4.9.1
