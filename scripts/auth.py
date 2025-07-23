@@ -4,7 +4,7 @@ from google.oauth2.credentials import Credentials
 
 def getCredentials():
     creds = None;
-    SCOPES = ['https://www.googleapis.com/auth/drive.activity.readonly']
+    SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 
 
     if os.path.exists("token.json"):
