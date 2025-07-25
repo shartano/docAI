@@ -8,6 +8,9 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaIoBaseDownload
 
+def build_drive_service(creds):
+    return build("drive", "v3", credentials=creds)
+
 def list_file_in_folder(service, folder_id, drive_id=None):
     query = f"'{folder_id}' in parents"
     page_token = None
