@@ -19,5 +19,5 @@ def getCredentials():
             )
             creds = flow.run_local_server(0)
         with open("token.json", "w") as token:
-            token.write(creds.to_json)
+            token.write(creds.to_json()
     return creds
